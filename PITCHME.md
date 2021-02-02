@@ -213,7 +213,7 @@ Three mainstreams to work in during **this year**: platform enablement, decouple
 
 ---
 
-#### 1. Plataforma
+#### 1. Platform
 
 ###### 1.1. Implement these aspects of **dynamic infrastructure** over existing AWS cloud capabilities:
 
@@ -224,7 +224,7 @@ Three mainstreams to work in during **this year**: platform enablement, decouple
     Service Catalog.
     - Naming & Tagging Strategy.
 
-###### To enable these characteristics:
+###### To achieve these characteristics in our platform:
 
     - Programmable,
     - On-demand,
