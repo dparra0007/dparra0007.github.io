@@ -121,6 +121,8 @@ The software development ecosystem is constantly changing, with a constant strea
 
 ---
 
+### API-fication for internals as public
+
 - Tenemos que conseguir modularidad y desacoplamiento a través de APIs. Poder desplegarlas independientemente de otras APIs.
 - Estas APIs tienen que estar construidas alrededor de capaciades de negocio.
 - Tiene que ser posible probar y experimentar facilmente estas APIs sin requerir entornos de integración, y poder reemplazarlas de forma gradual.
@@ -161,7 +163,7 @@ The software development ecosystem is constantly changing, with a constant strea
 
 #### Code never lies
 
-###### Dentro de la organización, sin entrar en casos excepcionales, el código fuente tiene que ser compartido para poder leerlo, revisarlo, hacer forks, contribuir de vuelta, ...
+###### Dentro de la organización, teniendo en cuenta casos excepcionales, el código fuente tiene que ser compartido para poder leerlo, revisarlo, hacer forks, contribuir de vuelta, ...
 
 ###### Todo en la organizacion tiene que ser definido por código: infraestructura, aplicaciones, configuraciones, politicas, documentación, ...
 
@@ -169,7 +171,7 @@ The software development ecosystem is constantly changing, with a constant strea
 
 #### Roles
 
-###### Alrededor del código de cada componente, se dibuja una estructura sencilla y poco jerarquizada:
+###### Alrededor del código de cada componente, se dibuja una estructura sencilla, dinámica y poco jerarquizada:
 
     - Owners: The person/s who has administrative ownership over the 
     organization or repository.
@@ -177,6 +179,14 @@ The software development ecosystem is constantly changing, with a constant strea
     - Contributor: who comments on an issue or pull request.
     - Commiter: People who use the application/service. They might be active 
     in conversations or express their opinion on the code repo’s direction.
+
+---
+
+![bg right 90%](./assets/skills.png)
+
+#### Technical skills map & personal development
+
+###### Los roles previos tienen que mapearse contra un mapa claro de competencias tecnicas definidas a través de habilidades, experiencia, certificaciones y meritos.
 
 ---
 
@@ -195,10 +205,45 @@ The software development ecosystem is constantly changing, with a constant strea
 
 ## **Roadmap**
 
-Three mainstreams to work in during **one year**: platform enablement, decouple legacy systems and stablish an open source development model.
+Three mainstreams to work in during **this year**: platform enablement, decouple legacy systems and stablish an open source development model.
 
-#### Plataforma
+---
 
-![bg right 60%](https://icongr.am/octicons/mark-github.svg)
+#### 1. Plataforma
 
-###### Que claramente defina el tipo de cultura que queremos que inspire nuestra disciplina de ingeniería de software.
+###### 1.1. Implement these aspects of **dynamic infrastructure** over existing AWS cloud capabilities:
+
+    - Security Assurance: Account Management, IDAM, Log Audit and 
+    Policy Management.
+    - Cost Control: Per organization, account and resource.
+    - Asset Management: Log Management, Performance Monitoring and
+    Service Catalog.
+    - Naming & Tagging Strategy.
+
+###### To enable these characteristics:
+
+    - Programmable,
+    - On-demand,
+    - Self-service
+
+---
+
+#### 2. Decouple legacy systems
+
+###### 2.1. Break artifical/technical dependencies between different functional components that IBIS middleware has been created.
+
+###### 2.2. Deliver infrastructure and application templates with foundational architectures as an architecture sryles toolbox. (*Avoid custom frameworks, sharing libraries & frameworks, facilitate re-use through internal service consumption and repository forks*)
+
+---
+
+![bg center 100%](./assets/toolbox.png)
+
+---
+
+#### 3. Stablish Open Source Development Model
+
+###### 3.1. Initial standarization through code for communication and deployment protocols and specifications. (use only mainstream industry standards).
+
+###### 3.2. Model IT technical components and teams around *"stream-aligned"* teams, with tech leads, cloud and configuration managenent engineers.
+
+###### 3.3. Evolve infraestructure and application architecture to *"platform"* teams.
