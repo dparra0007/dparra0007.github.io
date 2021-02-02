@@ -22,8 +22,6 @@ section.vertical-custom-class {
 
 # <!--fit--> Software Development in the 21st century
 
-David Parra
-
 https://github.com/dparra0007/dparra0007.github.io
 
 <style scoped>a { color: #eee; }</style>
