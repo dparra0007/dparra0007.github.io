@@ -69,6 +69,13 @@ https://github.com/dparra0007/dparra0007.github.io
 
 ###### Esos componentes existen actualmente. Por ejemplo: *BELK, WCS, Mashery, ...*
 
+---
+
+
+##### El modelo de interacción entre componentes "*stream-aligned*", y con "*platform*", debe ser orientado a servicios, creando contratos claros que reduzcan ineficiencias en la comunicación.
+
+###### La interacción se implementa a través de la definición de contratos que cumplen con especificaciones estandares: openAPI (Swagger), gRPC, tests de pactos (pact.io), BDD, ...
+
 
 ---
 
@@ -88,6 +95,14 @@ Cohesion: components that are self-contained,  independent, and with a single, w
     - Las plataformas promueven la reusabilidad de componentes "core" al tiempo
     que permiten un desacople máximo de implementaciones.
 ###### Usar frameworks dentro de subdominios muy acoptados y estáticos. Librerias en dominios con requerimientos exigentes de rendimiento. Y plataformas de forma extendida a la organización.
+
+---
+
+#### Consideraciones importantes sobre Frameworks y repositorios de librerias
+
+###### Usar Evitar los "custom" frameworks construidos a media dentro de una organizacion porque añaden complejidad técnica y costes de mantenimiento.
+
+###### Protegerse del consumo directo de liberias de terceros a través de repositorios espejos dentro de la organización.
 
 ---
 
@@ -140,3 +155,50 @@ The software development ecosystem is constantly changing, with a constant strea
 The software development ecosystem is constantly changing, with a constant stream of innovation in tools, frameworks and techniques.
 
 
+---
+
+![bg right 60%](https://icongr.am/octicons/mark-github.svg)
+
+#### Code never lies
+
+###### Dentro de la organización, sin entrar en casos excepcionales, el código fuente tiene que ser compartido para poder leerlo, revisarlo, hacer forks, contribuir de vuelta, ...
+
+###### Todo en la organizacion tiene que ser definido por código: infraestructura, aplicaciones, configuraciones, politicas, documentación, ...
+
+---
+
+#### Roles
+
+###### Alrededor del código de cada componente, se dibuja una estructura sencilla y poco jerarquizada:
+
+    - Owners: The person/s who has administrative ownership over the 
+    organization or repository.
+    - Mantainers: are the only people in a repository with commit access.
+    - Contributor: who comments on an issue or pull request.
+    - Commiter: People who use the application/service. They might be active 
+    in conversations or express their opinion on the code repo’s direction.
+
+---
+
+#### Codigo de conducta
+
+###### Que claramente defina el tipo de cultura que queremos que inspire nuestra disciplina de ingeniería de software:
+
+- Eficiencia
+- Mejora continua
+- Innovación
+
+---
+
+![bg](#123)
+![](#fff)
+
+## **Roadmap**
+
+Three mainstreams to work in during **one year**: platform enablement, decouple legacy systems and stablish an open source development model.
+
+#### Plataforma
+
+![bg right 60%](https://icongr.am/octicons/mark-github.svg)
+
+###### Que claramente defina el tipo de cultura que queremos que inspire nuestra disciplina de ingeniería de software.
