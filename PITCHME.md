@@ -234,9 +234,9 @@ Three mainstreams to work in during **this year**: platform enablement, decouple
 
 #### 2. Decouple legacy systems
 
-###### 2.1. Break artifical/technical dependencies between different functional components that IBIS middleware has been created.
+###### 2.1. Break artificial/technical dependencies between different functional components that IBIS middleware has been created.
 
-###### 2.2. Deliver infrastructure and application templates with foundational architectures as an architecture sryles toolbox. (*Avoid custom frameworks, sharing libraries & frameworks, facilitate re-use through internal service consumption and repository forks*)
+###### 2.2. Deliver infrastructure and application templates with foundational architectures as an architecture styles toolbox. (*Avoid custom frameworks, sharing libraries & frameworks, facilitate re-use through internal service consumption and repository forks*)
 
 ---
 
@@ -248,6 +248,6 @@ Three mainstreams to work in during **this year**: platform enablement, decouple
 
 ###### 3.1. Initial standarization through code for communication and deployment protocols and specifications. (use only mainstream industry standards).
 
-###### 3.2. Model IT technical components and teams around *"stream-aligned"* teams, with tech leads, cloud and configuration managenent engineers.
+###### 3.2. Model IT technical components and teams around *"stream-aligned"* teams, with tech leads, cloud and configuration management engineers.
 
-###### 3.3. Evolve infraestructure and application architecture to *"platform"* teams.
+###### 3.3. Evolve infrastructure and application architecture to *"platform"* teams.
