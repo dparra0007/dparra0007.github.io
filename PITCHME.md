@@ -94,13 +94,13 @@ Cohesion: components that are self-contained,  independent, and with a single, w
     - Las librerias no imponen la reusabilidad, pero reducen el acoplamiento.
     - Las plataformas promueven la reusabilidad de componentes "core" al tiempo
     que permiten un desacople máximo de implementaciones.
-###### Usar frameworks dentro de subdominios muy acoptados y estáticos. Librerias en dominios con requerimientos exigentes de rendimiento. Y plataformas de forma extendida a la organización.
+###### Usar frameworks dentro de subdominios muy acotados y estáticos. Librerias en dominios con requerimientos exigentes de rendimiento. Y plataformas de forma extendida a la organización.
 
 ---
 
 #### Consideraciones importantes sobre Frameworks y repositorios de librerias
 
-###### Usar Evitar los "custom" frameworks construidos a media dentro de una organizacion porque añaden complejidad técnica y costes de mantenimiento.
+###### Evitar los "custom" frameworks construidos a media dentro de una organizacion porque añaden complejidad técnica y costes de mantenimiento.
 
 ###### Protegerse del consumo directo de liberias de terceros a través de repositorios espejos dentro de la organización.
 
