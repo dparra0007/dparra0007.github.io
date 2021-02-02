@@ -44,7 +44,7 @@ https://github.com/dparra0007/dparra0007.github.io
 ---
 
 #### Diseñar los sistemas y los equipos alrededor de los dominios y unidades de negocio.
-###### Evitar los diseños con fronteras tecnologicas, que actualmente existen en *Resibernet, .NET, Angular, ...* por ejemplo.
+###### Evitar los diseños con fronteras tecnologicas, que actualmente existen en *Resibernet, .NET, Angular, IBM MQ, ...* por ejemplo.
 
 ---
 
