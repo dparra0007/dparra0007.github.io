@@ -154,7 +154,11 @@ The software development ecosystem is constantly changing, with a constant strea
 
 ## **Open source development model**
 
-The software development ecosystem is constantly changing, with a constant stream of innovation in tools, frameworks and techniques.
+- Reduce the amount of work needed from product teams,
+- Minimize the cost to maintain source code and internal software branches,
+- Improve code quality,
+- Produce faster development cycles,
+- Produce more stable code to serve as the base for products
 
 
 ---
