@@ -249,3 +249,7 @@ Three mainstreams to work in during **this year**: platform enablement, decouple
 ###### 3.2. Model IT technical components and teams around *"stream-aligned"* teams, with tech leads, cloud and configuration management engineers.
 
 ###### 3.3. Evolve infrastructure and application architecture to *"platform"* teams.
+
+---
+
+![bg center 100%](./assets/organization.png)
